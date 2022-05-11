@@ -1,16 +1,14 @@
 .intro__text {
-	width: 690px;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 26px;
-	margin-bottom: 33px;
+  width: 690px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 33px;
 }
 
-@media (max-width: 767px){
-
-	.intro__text {
-		margin-bottom: 34px;
-		width: 100%;
-	}
-
+@media (max-width: 767px) {
+  .intro__text {
+    margin-bottom: 34px;
+    width: 100%;
+  }
 }

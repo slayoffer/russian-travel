@@ -3,11 +3,9 @@
   padding-top: 28px;
 }
 
-@media (max-width: 767px){
-
+@media (max-width: 767px) {
   .header__logo {
     padding-top: 16px;
     width: 142px;
   }
-
 }

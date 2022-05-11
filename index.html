@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Путешествие по России</title>
 	<link rel="stylesheet" href="./pages/index.css" />
 </head>
-
-<body>
-	<main class="page">
-		<header class="header">
-			<img class="header__logo" src="./img/__logo.svg" alt="Логотип Путешествие по России">
-			<ul class="header__lang-links">
-				<li>
-					<a class="header__lang-link header__lang-link_active" href="#">Ru</a>
-				</li>
-				<li>
-					<a class="header__lang-link" href="#">En</a>
-				</li>
-			</ul>
-		</header>
+<body class="page">
+	<header class="header">
+		<img class="header__logo" src="./img/__logo.svg" alt="Логотип Путешествие по России">
+		<ul class="header__lang-links">
+			<li>
+				<a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+			</li>
+			<li>
+				<a class="header__lang-link" href="#">En</a>
+			</li>
+		</ul>
+	</header>
+	<main class="content">
 		<section class="lead">
 			<h1 class="lead__title">Путешествие по&nbsp;России</h1>
 			<p class="lead__subtitle">Настоящая страна не в выпусках<br>новостей, а здесь.</p>
@@ -69,8 +67,8 @@
 					<p class="place__url-heading">URL</p>
 					<a class="place__link" href="https://park-kosa.ru" target="_blank">park-kosa.ru</a>
 				</div>
-					<img class="place__image" src="./img/kosa.jpg" alt="Фото Куршской косы">
-				<div>
+				<img class="place__image" src="./img/kosa.jpg" alt="Фото Куршской косы">
+				<div class="place__paragraphs">
 					<p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
 						спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой.
 						Уникальная природная зона на краю российского анклава.</p>
@@ -87,8 +85,8 @@
 					<p class="place__url-heading">URL</p>
 					<a class="place__link" href="https://nationalgeo.com" target="_blank">National Geographic</a>
 				</div>
-					<img class="place__image" src="./img/kolsky.jpg" alt="Фото Кольского полуострова">
-				<div>
+				<img class="place__image" src="./img/kolsky.jpg" alt="Фото Кольского полуострова">
+				<div class="place__paragraphs">
 					<p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на
 						юг —
 						тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -106,8 +104,8 @@
 					<a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
 						target="_blank">Facebook</a>
 				</div>
-					<img class="place__image" src="./img/altai.jpg" alt="Фото природы Алтая">
-				<div>
+				<img class="place__image" src="./img/altai.jpg" alt="Фото природы Алтая">
+				<div class="place__paragraphs">
 					<p class="place__paragraph">Алтай — одно из красивейших мест в России.
 						В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и
 						озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным
@@ -124,8 +122,8 @@
 					<p class="place__url-heading">URL</p>
 					<a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
 				</div>
-					<img class="place__image" src="./img/baikal.jpg" alt="Фото озера Байкал">
-				<div>
+				<img class="place__image" src="./img/baikal.jpg" alt="Фото озера Байкал">
+				<div class="place__paragraphs">
 					<p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
 						в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.
 					</p>
@@ -142,8 +140,8 @@
 					<p class="place__url-heading">URL</p>
 					<a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru</a>
 				</div>
-					<img class="place__image" src="./img/karelia.jpg" alt="Фото Карелии">
-				<div>
+				<img class="place__image" src="./img/karelia.jpg" alt="Фото Карелии">
+				<div class="place__paragraphs">
 					<p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
 						лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
 						национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем
@@ -154,34 +152,33 @@
 			</article>
 		</section>
 		<section class="cover">
-				<div class="cover__text">
-					<h2 class="cover__title">До Байкала «на собаках»</h2>
-					<p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-						электричках.</p>
-				</div>
+				<h2 class="cover__title">До Байкала «на собаках»</h2>
+				<p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+					электричках.</p>
 		</section>
-		<footer class="footer">
-				<nav class="footer__menu">
-					<ul class="footer__links">
-						<li class="footer__link">
-							<a class="footer__link-text" href="https://yandex.ru/maps">Карты</a>
-						</li>
-						<li class="footer__link">
-							<a class="footer__link-text" href="https://yandex.ru/pogoda">Погода</a>
-						</li>
-						<li class="footer__link">
-							<a class="footer__link-text" href="https://rasp.yandex.ru">Расписание</a>
-						</li>
-						<li class="footer__link">
-							<a class="footer__link-text" href="https://calendar.yandex.ru">Календарь</a>
-						</li>
-						<li class="footer__link">
-							<a class="footer__link-text" href="https://travel.yandex.ru">Путешествия</a>
-						</li>
-					</ul>
-				</nav>
-				<p class="footer__copyright-author">&copy; 2022 Антон Евсеев</p>
-		</footer>
 	</main>
+	<footer class="footer">
+		<nav class="footer__menu">
+			<ul class="footer__links">
+				<li class="footer__link">
+					<a class="footer__link-text" href="https://yandex.ru/maps">Карты</a>
+				</li>
+				<li class="footer__link">
+					<a class="footer__link-text" href="https://yandex.ru/pogoda">Погода</a>
+				</li>
+				<li class="footer__link">
+					<a class="footer__link-text" href="https://rasp.yandex.ru">Расписание</a>
+				</li>
+				<li class="footer__link">
+					<a class="footer__link-text" href="https://calendar.yandex.ru">Календарь</a>
+				</li>
+				<li class="footer__link">
+					<a class="footer__link-text" href="https://travel.yandex.ru">Путешествия</a>
+				</li>
+			</ul>
+		</nav>
+		<p class="footer__copyright-author">&copy; 2022 Антон Евсеев</p>
+	</footer>
 </body>
+
 </html>
